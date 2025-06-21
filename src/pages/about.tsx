@@ -157,38 +157,42 @@ export function AboutPage() {
     {/* Правый блок — Команда */}
     <div className="lg:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-10">
       {[
-        {
-          name: "Amina Sydykova",
-          role: "System Architect",
-          desc: "Leads the structure of BIABIA’s digital framework — balancing scale, performance, and adaptability.",
-          img: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&auto=format&fit=crop&w=150&h=150&crop=face",
-          accentFrom: "from-cyan-500",
-          accentTo: "to-emerald-500"
-        },
-        {
-          name: "Daniel Kurban",
-          role: "AI & Data Strategist",
-          desc: "Transforms complex data into real-time decisions. Architect of BIABIA’s predictive systems.",
-          img: "https://images.unsplash.com/photo-1603415526960-f7e0328a1e33?q=80&auto=format&fit=crop&w=150&h=150&crop=face",
-          accentFrom: "from-purple-500",
-          accentTo: "to-fuchsia-500"
-        },
-        {
-          name: "Malika Tursunova",
-          role: "UX Systems Designer",
-          desc: "Builds futuristic interfaces with logic and beauty. She makes complex systems feel human.",
-          img: "https://images.unsplash.com/photo-1583337130417-3346a1d3a5fd?q=80&auto=format&fit=crop&w=150&h=150&crop=face",
-          accentFrom: "from-pink-500",
-          accentTo: "to-rose-500"
-        },
-        {
-          name: "Alex Tanabayev",
-          role: "Infrastructure Lead",
-          desc: "Handles the core infrastructure — from cloud to edge — ensuring everything stays fast, secure, and online.",
-          img: "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&auto=format&fit=crop&w=150&h=150&crop=face",
-          accentFrom: "from-blue-500",
-          accentTo: "to-indigo-600"
-        }
+      {
+    name: "Amina Sydykova",
+    gender: "female",
+    role: "System Architect",
+    desc: "Leads the structure of BIABIA’s digital framework — balancing scale, performance, and adaptability.",
+    img: "https://randomuser.me/api/portraits/women/65.jpg",
+    accentFrom: "from-cyan-500",
+    accentTo: "to-emerald-500",
+  },
+  {
+    name: "Daniel Kurban",
+    gender: "male",
+    role: "AI & Data Strategist",
+    desc: "Transforms complex data into real-time decisions. Architect of BIABIA’s predictive systems.",
+    img: "https://randomuser.me/api/portraits/men/32.jpg",
+    accentFrom: "from-purple-500",
+    accentTo: "to-fuchsia-500",
+  },
+  {
+    name: "Malika Tursunova",
+    gender: "female",
+    role: "UX Systems Designer",
+    desc: "Builds futuristic interfaces with logic and beauty. She makes complex systems feel human.",
+    img: "https://randomuser.me/api/portraits/women/44.jpg",
+    accentFrom: "from-pink-500",
+    accentTo: "to-rose-500",
+  },
+  {
+    name: "Alex Tanabayev",
+    gender: "male",
+    role: "Infrastructure Lead",
+    desc: "Handles the core infrastructure — from cloud to edge — ensuring everything stays fast, secure, and online.",
+    img: "https://randomuser.me/api/portraits/men/75.jpg",
+    accentFrom: "from-blue-500",
+    accentTo: "to-indigo-600",
+  },
       ].map(({ name, role, desc, img, accentFrom, accentTo }, i) => (
         <div key={i} className="relative bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-transform hover:scale-[1.02]">
           {/* Верхний индикатор */}
