@@ -147,12 +147,13 @@ export function BlogPage() {
 
     {/* Subtitle */}
     <div className='mt-8 space-y-4 px-4'>
-      <p className='text-xl lg:text-2xl text-indigo-200 font-medium leading-relaxed max-w-4xl mx-auto'>
-        Explore the rhythm of creativity, <br className='hidden sm:block' />
-        where every post resonates with the <span className='text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-pink-400 font-bold px-2 py-1 rounded-lg inline-block'>
-          soul of sound
-        </span>.
-      </p>
+		<p className='text-xl lg:text-2xl text-indigo-200 font-medium leading-relaxed max-w-4xl mx-auto'>
+  Urbanization shapes the pulse of modern life, <br className='hidden sm:block' />
+  transforming landscapes into vibrant <span className='text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-pink-400 font-bold px-2 py-1 rounded-lg inline-block'>
+    hubs of culture and connection
+  </span>, where innovation meets tradition.
+</p>
+
     </div>
   </div>
 
