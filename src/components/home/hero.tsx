@@ -1,8 +1,6 @@
 import { Container } from '@/components/shared/container'
-import { useState } from 'react'
 
 export function Hero() {
-	const [loaded, setLoaded] = useState(false)
 
 	return (
 		<section className='relative min-h-screen bg-white overflow-hidden'>
@@ -20,7 +18,6 @@ export function Hero() {
 					src='https://online.maryville.edu/wp-content/uploads/sites/97/2023/09/computer-programmers-1.jpg'
 					alt='Urban design'
 					className='w-full h-full object-cover opacity-30'
-					onLoad={() => setLoaded(true)}
 				/>
 			</div>
 

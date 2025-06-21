@@ -212,7 +212,7 @@ export function BlogPage() {
 
 							{/* Articles grid with geometric design */}
 							<div className='relative z-10 grid gap-8 md:gap-10 lg:gap-12 grid-cols-1 md:grid-cols-2 xl:grid-cols-3'>
-								{filteredArticles?.map((article, index) => (
+								{filteredArticles?.map((article) => (
 									<div key={article.id} className='group relative'>
 										{/* Geometric container with dynamic shapes */}
 										<div className={`
